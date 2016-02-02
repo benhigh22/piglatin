@@ -6,10 +6,10 @@ first = word[0]
 new_word = word[1:] + first + pig
 s = "s"
 new_vowel_name = word[1:] + s + pig
-if len(name) > 0 and name.isalpha():
-    print (new_word)
-elif first in vowels:
+if first in vowels:
     print (new_vowel_name)
+elif len(name) > 0 and name.isalpha():
+    print (new_word)
 else:
     print ("That's not a word")
 
